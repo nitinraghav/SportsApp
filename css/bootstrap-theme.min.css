@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>LiveApp</title>
+
+<!-- CSS Imports-->
+<link href="https://www.launchliveapp.com/404-error-page.css" rel="stylesheet" type="text/css" />
+
+<!-- Javascript Imports-->
+<script src="http://www.launchliveapp.com/LaunchLiveApp_Scripts/jquery.min.js" type="text/javascript" ></script>
+<script>
+var time_left = 10;
+var cinterval;
+function time_dec(){
+  time_left--;
+  document.getElementById('time').innerHTML = time_left;
+  if(time_left == 0){
+    clearInterval(cinterval);
+	window.location = "http://www.launchliveapp.com/";
+  }
+}
+
+function onLoad(){
+	cinterval = setInterval('time_dec()', 1000);
+	 document.getElementById('time').innerHTML = time_left;
+}
+</script>
+</head>
+<body class='bodyDefault' onLoad="onLoad()">
+<div id='headerBIG'>
+  <div id='wrapper'>
+    <div id='mainLogo'></div>  </div>
+</div>
+<div id='content'>
+	<div id='wrapper'><br /><br />
+		<div class="formSection">
+			<div id="designNotice">
+				<h2>Oops, the page you are looking for could not be found!</h2>
+				<br/>
+				<br/>
+				<p>You will be redirected in: <p>
+				<div id="time"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div id='footer' style='position:absolute; bottom:0px;'>
+  <div id='wrapper'> </div>
+  <div id='siliconWLogo'></div>
+</div>
+<div id='blackBG'></div>
+<div id='popUp'></div>
+</body>
+</body>
+</html>

@@ -1,0 +1,1969 @@
+/* Sports App Design Wizard CSS */
+
+
+body{
+   background-color:#005292;
+
+}
+
+.container{
+    height: 100%;
+	margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+}
+
+.designWizardHeader{
+    font-size: 1.2em;
+	font-weight: bold;
+	background-color: #FFF;
+	/*width: 100%;*/
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	 height: 90px;
+}
+
+.logoImage{
+    height: 60px;
+	padding-left: 1.5vw;
+	padding-top:1.5vh;
+	float: left;
+}
+
+.headerText{
+    height:60px;
+	line-height: 60px;
+	padding-top: 1.5vh;
+	padding-left: 1.5vw;
+	float: left;
+}
+
+/* wizSports_getStarted.php */
+
+.designWizardHeader{
+
+}
+
+.thanks{
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #FFF;
+   text-align: center;
+   margin-top: 12vh
+}
+
+.btnGS_holder{
+    text-align: center;
+}
+
+.btnGS{
+    margin-top: 12vh;
+	width: 200px;
+	background-color: #fff;
+	color: #005292;
+	border-radius: 10px;
+	font-size: 2em;
+	font-weight: bold;
+	white-space: pre-line;
+}
+
+/* wizSports1.php */
+
+.title1{
+    color:#fff;
+	padding-left: 5vw;
+	padding-right: 2vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	font-size: 1.2em;
+}
+
+.formAreaW1{
+    background-color: #fff;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	padding-top: 15px;
+	padding-bottom:15px;
+	border-radius: 5px;
+
+}
+
+.stepNo{
+    font-size: 0.5em;
+	text-align: right;
+	font-weight: normal;
+	padding-right: 2vw;
+	padding-bottom: 1.5vh;
+}
+
+.sectionW1{
+    background-color:#005292;
+/*	margin-left:-15px;
+	margin-right:-15px; */
+/*	width: 100%; */
+
+}
+
+
+.outerFormW1{
+    background-color:#005292;
+	width: 100%;
+}
+
+.formW1{
+    margin-left:6%;
+	margin-right: 0vw;
+	background-color:#fff;
+	border-radius: 5px;
+    width: 88%;
+}
+
+.redStar{
+   color: #f00;
+   margin-left: -8px;
+}
+ .fieldW1 label{
+	     font-size: 1em;
+		 margin-bottom: 0px;
+}
+ .fieldW1 input{
+	     height: 3vh;
+		 margin-bottom: 10px;
+		 width: 100%;
+		 border-radius: 5px;
+}
+
+.btnW1_holder{
+    text-align:center;
+	margin-top: 5vh;
+	padding-bottom: 3vh;
+}
+
+.btnW1{
+   width:65vw;
+   height: 35px;
+   background-color:#fff;
+   border-radius: 15px;
+   color: #005292;
+   font-size: 1em;
+   font-weight: 900;
+}
+
+
+/* wizSports2.php */
+
+.logoUpload_holder{
+    margin-top: 25px;
+	height: 150px;
+	background-color: #fff;
+	padding: 15px;
+	margin-left: 30px;
+    margin-right: 30px;
+	border-radius: 5px;
+}
+.btnCF_box{
+   float: left;
+   margin-top: 40px;
+}
+
+.btnCF{
+    background-color: #005292;
+	color: #fff;
+	height: 35px;
+    width: 120px;
+    font-size: 1em;
+    border-radius: 12px;
+	margin-top: 15px;
+}
+
+.btnCF:hover{
+    color: #fff;
+}
+
+.previewBox{
+    float: right;
+	margin-top: 15px;
+	text-align: center;
+}
+.previewImage{
+    height:100px;
+	width: 100px;
+	border: 2px solid #777;
+	border-radius: 8px;
+}
+
+.btnW2_holder{
+     text-align:center;
+	margin-top: 8vh;
+	padding-bottom: 3vh;
+}
+
+/* wizSports3.php */
+
+.formAreaW3{
+    background-color: #fff;
+	padding-left: 6vw;
+	padding-right: 5vw;
+	padding-top: 13px;
+	padding-bottom:10px;
+	border-radius: 5px;
+}
+
+#fieldLab_w3_2{
+    margin-top: 13px;
+}
+
+#fieldLab_w3_3{
+    margin-top: 13px;
+}
+
+.scheduleDD{
+   margin-top: 5px;
+   height: 20px;
+   width: 39vw;
+   font-size: 0.9em;
+}
+
+/* wizSports4.php */
+.title4{
+    color:#fff;
+	padding-left: 5vw;
+	padding-right: 2vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	font-size: 1em;
+}
+
+.formAreaW4{
+    background-color: #fff;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 10px;
+	padding-bottom:10px;
+	border-radius: 5px;
+}
+
+.fieldW4 label{
+	     font-size: 1em;
+		 margin-bottom: 0px;
+}
+ .fieldW4 input{
+	     height: 20px;
+		 margin-bottom: 5px;
+		 width: 100%;
+		 border-radius: 5px;
+}
+
+.btnAAC_box{
+    text-align: center;
+}
+
+.btnAAC{
+    background-color: #005292;
+	color: #fff;
+	height: 35px;
+    width: 175px;
+    font-size: 1em;
+    border-radius: 12px;
+	margin-top: 5px;
+}
+
+/* wizSports4x.php */
+
+.contactList_holder{
+    background-color: #fff;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	padding-top: 5px;
+	padding-bottom:15px;
+	border-radius: 5px;
+	margin-left: 7vw;
+	margin-right: 7vw;
+}
+
+.contactRecord{
+    width: 80vw;
+	margin-top: 15px;
+}
+
+.btnECR_box{
+}
+
+.btnEditCR{
+    float: left;
+	margin-top: 8px;
+}
+
+.btnECR{
+    background-color: #005292;
+	color: #fff;
+	height: 20px;
+    width: 40px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.ciInfoBox{
+    float: left;
+	margin-left: 23px;
+
+}
+
+.personData{
+    font-weight: bold;
+}
+
+.contactType{
+    float: left;
+}
+
+.contactName{
+     float: left;
+}
+
+.email_CIB{
+     float: left;
+	 height: 20px;
+	 width: 20vw;
+}
+
+.cell_CIB{
+     float: left;
+	 height: 20px;
+	 width: 20vw;
+}
+.text_CIB{
+     float: left;
+	 height: 20px;
+	 width: 20vw;
+}
+
+.btnW4x{
+   width:65vw;
+   background-color:#fff;
+   border-radius: 10px;
+   color: #005292;
+   font-size: 0.9em;
+   font-weight: 900;
+}
+
+/* wizSports5.html */
+
+.title5{
+    color:#fff;
+	padding-left: 5vw;
+	padding-right: 2vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	font-size: 1.1em;
+}
+
+.formAreaW5{
+    background-color: #fff;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 10px;
+	padding-bottom:10px;
+	border-radius: 5px;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.fieldW5 label{
+	     font-size: 1em;
+		 margin-bottom: 0px;
+}
+ .fieldW5 input{
+	     height: 25px;
+		 margin-bottom: 5px;
+		 width: 100%;
+		 border-radius: 5px;
+}
+
+.btnCFW_box{
+   float: left;
+   margin-top: 27px;
+   margin-left: 6vw;
+}
+
+.btnCFW{
+    background-color: #005292;
+	color: #fff;
+	height: 25px;
+    width: 75px;
+    font-size: 0.7em;
+    border-radius: 12px;
+	margin-top: 0px;
+}
+
+.websiteIconUpload label{
+    float: left;
+	margin-top: 30px;
+
+}
+
+.previewBoxW{
+    float: right;
+	margin-top: 8px;
+	text-align: center;
+	margin-left: 4vw;
+
+}
+.previewImageW{
+    height:50px;
+	width: 65px;
+	border: 2px solid #777;
+	border-radius: 8px;
+}
+
+.btnAL_box{
+   margin-top: 15px;
+   text-align: center;
+}
+td{
+
+	padding-right:1vw;
+	vertical-align:top;
+}
+tr{
+	padding-left:1vw;
+}
+.no1{
+	padding-right:0vw;
+}
+
+.btnAL{
+    background-color: #005292;
+	color: #fff;
+	height: 30px;
+    width: 125px;
+    font-size: 0.9em;
+    border-radius: 12px;
+}
+
+.btnW5Skip_holder{
+    text-align:center;
+	margin-top: 3.5vh;
+}
+
+.btnW5_holder{
+    text-align:center;
+	margin-top: 2.5vh;
+}
+
+.btnW5{
+   width:55vw;
+   height: 25px;
+   background-color:#fff;
+   border-radius: 10px;
+   color: #005292;
+   font-size: 0.9em;
+   font-weight: bold;
+}
+
+/* wizSports5.html */
+
+.formAreaW6{
+    background-color: #fff;
+	padding-left: 6vw;
+	padding-right: 5vw;
+	padding-top: 13px;
+	padding-bottom:10px;
+	border-radius: 5px;
+}
+
+.fieldW6 label{
+	     font-size: 1em;
+		 margin-bottom: 0px;
+}
+ .fieldW6 input{
+	     height: 25px;
+		 margin-bottom: 15px;
+		 width: 100%;
+		 border-radius: 5px;
+}
+
+/* wizSports7.html */
+.btnCSI_box{
+   margin-top: 0px;
+   text-align: center;
+}
+
+.btnCSI{
+    background-color: #005292;
+	color: #fff;
+	height: 35px;
+    width: 120px;
+    font-size: 1em;
+    border-radius: 12px;
+	margin-top: 0px;
+}
+
+.previewBox7{
+	margin-top: 15px;
+	font-size: 1.1em;
+	text-align: center;
+}
+.previewImage7{
+    height:100px;
+	border: 2px solid #777;
+	border-radius: 8px;
+	margin-bottom: 6px;
+}
+
+.sponsorUpload_holder{
+    margin-top: 25px;
+	height: 180px;
+	background-color: #fff;
+	padding: 15px;
+	margin-left: 30px;
+    margin-right: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+/* wizSports8.php */
+
+.title8x{
+    font-style: italic;
+	text-decoration: underline;
+}
+
+.bgUpload_holder{
+    margin-top: 10px;
+	height: 135px;
+	background-color: #fff;
+	padding: 15px;
+	margin-left: 30px;
+    margin-right: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.buttonSide{
+   float: left;
+   margin-top: -8px;
+}
+
+.btnUBI_box{
+   margin-top: 5px;
+   text-align: center;
+}
+
+.btnUBI{
+    background-color: #005292;
+	color: #fff;
+	height: 50px;
+    width: 115px;
+    font-size: 1em;
+    border-radius: 12px;
+	margin-top: 0px;
+	font-weight: bold;
+	letter-spacing: 0.12em;
+	white-space: pre-wrap;
+}
+
+.text8y{
+    margin-top: 10px;
+}
+
+.btnCBC_box{
+   margin-top: 10px;
+   text-align: center;
+}
+
+.btnCBC{
+    background-color: #005292;
+	color: #fff;
+	height: 50px;
+    width: 115px;
+    font-size: 1em;
+    border-radius: 12px;
+	margin-top: 0px;
+	font-weight: bold;
+	letter-spacing: 0.12em;
+	white-space: pre-wrap;
+}
+
+.hiddenColPic8{
+    opacity: 0;
+	margin-left: -50px;
+}
+
+/*#imageUpload8{
+    width: 5px;
+	height: 10px;
+	margin-left: -10px;
+	visibility: hidden;
+}*/
+
+.previewSide{
+    float: right;
+}
+
+.previewBox8{
+    float: right;
+	text-align: center;
+	margin-top: 10px;
+}
+.previewImage8{
+    height:100px;
+	width: 100px;
+	border: 2px solid #777;
+	border-radius: 8px;
+}
+
+#fileUpload8{
+   width: 100px;
+   height: 0px;
+   visibility: hidden;
+}
+
+.btnW8_holder{
+    text-align:center;
+	margin-top: 30px;
+	padding-bottom: 3vh;
+}
+
+/* wizSports9.php */
+.title9{
+	padding-left: 6vw;
+	padding-right: 3vw;
+	padding-top: 1vh;
+	padding-bottom: 0.5vh;
+	font-size: 1em;
+	color: #fff;
+}
+.colorOptions_holder{
+    margin-top: 10px;
+	background-color: #fff;
+	padding: 15px;
+	margin-left: 30px;
+    margin-right: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.colorChoiceBox{
+    background-color: #ccc;
+	text-align: center;
+	margin-left: 19vw;
+	margin-right: 19vw;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+
+.colChoiceSchedHeading{
+    font-size: 0.6em;
+	margin-bottom: 3px;
+}
+
+.usLine{
+    font-size: 0.4em;
+	margin-left: 10px;
+}
+
+.usDate{
+   float: left;
+}
+
+.usTime{
+   float: left;
+}
+
+.usEvent{
+   float: left;
+}
+
+.usLoc{
+   float: left;
+   /*color: #f00;*/
+}
+
+.colChoiceContactHeading{
+    margin-top: 6px;
+	padding-top: 6px;
+    border-style: solid;
+	border-width: 2px;
+	border-color: transparent;
+    border-top-color: #888;
+    font-size: 0.6em;
+	margin-bottom: 0px;
+
+}
+
+.contactLine{
+   margin-bottom: 3px;
+   text-align: center;
+}
+
+.contactID{
+   font-size: 0.5em;
+   text-align: left;
+   margin-left: 10px;
+}
+
+.iconRowHolder{
+   text-align:center;
+}
+
+.iconHolder{
+  /* float: left;*/
+   padding-left: 3vw;
+   padding-right: 3vw;
+   margin-top:3px;
+   display: inline-block;
+   text-align: center;
+}
+
+.iconImage{
+}
+
+.image_icon{
+   height: 15px;
+   width: 15px;
+}
+
+.iconText{
+   margin-top: 2px;
+   font-size: 0.4em;
+}
+
+.textBtnRow{
+   margin-top: 5px;
+}
+
+.btnTT_box{
+   margin-top: 5px;
+   text-align: center;
+   float: left;
+}
+
+.btnTT{
+    background-color: #005292;
+	color: #fff;
+	height: 27px;
+    width: 50px;
+    font-size: 0.8em;
+    border-radius: 12px;
+	margin-top: 0px;
+	z-index: 20;
+}
+
+.btnRT_box{
+   margin-top: 5px;
+   text-align: center;
+   float: right;
+}
+
+.btnRT{
+    background-color: #005292;
+	color: #fff;
+	height: 27px;
+    width: 100px;
+    font-size: 0.8em;
+    border-radius: 12px;
+	margin-top: 0px;
+}
+
+.btnIC_box{
+   margin-top: 3px;
+   text-align: center;
+}
+
+.btnIC{
+    background-color: #005292;
+	color: #fff;
+	height: 27px;
+    width: 100px;
+    font-size: 0.8em;
+    border-radius: 12px;
+	margin-top: 0px;
+}
+
+.hiddenColPic{
+    opacity: 0;
+	margin-left: -50px;
+}
+
+.btnW9_holder{
+	text-align:center;
+	margin-top: 12px;
+/*	padding-bottom: 3vh; */
+}
+
+.btnW9{
+   width:55vw;
+   height: 25px;
+   background-color:#fff;
+   border-radius: 15px;
+   color: #005292;
+   font-size: 0.8em;
+   font-weight: 900;
+}
+
+/* wizSports_Build.php */
+
+.buildContent{
+  text-align: center;
+  margin-top:30px;
+}
+
+.buildImage{
+   width: 200px;
+}
+
+.buildingText{
+   font-size: 1.8em;
+   margin-top: 30px;
+   color: #fff;
+}
+
+/* wizSports_Ready.php */
+
+.sectionW_AR{
+    background-color:#005292;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.appReadyContent{
+   background-color: #fff;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 20px;
+   padding-bottom: 55px;
+   border-radius: 5px;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   height: 290px;
+}
+
+.congrats{
+   font-size: 2em;
+   font-weight: 900;
+   text-align:center;
+}
+
+.titleAR{
+   font-size: 0.8em;
+   font-weight: 900;
+   text-align:center;
+}
+
+.appReadyText{
+   font-size: 0.6em;
+   margin-top: 8px;
+   font-weight: bold;
+}
+
+.appReadyLink{
+   font-size: 0.6em;
+   margin-top: 8px;
+   font-weight: 900;
+}
+
+.upperImageHolder{
+    text-align: center;
+	height: 80px;
+	padding-left: 17vw;
+	padding-right: 17vw;
+}
+
+.previewBoxAR{
+	margin-top: 8px;
+/*	text-align: center; */
+	padding-bottom: 8px;
+	float: left;
+	display: inline-block;
+}
+.previewImageAR{
+    height: 65px;
+	width: 65px;
+	border: 2px solid #777;
+	border-radius: 12px;
+}
+
+.triLogoBox{
+	margin-top: 7px;
+    float: right;
+	padding-bottom: 0px;
+	display: inline-block;
+}
+.triLogo{
+    height: 70px;
+	width: 70px;
+
+}
+
+.appReadyImageHolder{
+   text-align: center;
+}
+
+.appReadyImage{
+    height: 55px;
+	width: 55px;
+}
+
+/* wizSports_qrCode.php */
+
+.qrCodePage{
+    background-color: #fff;
+}
+
+.btnQRclose{
+    text-align: center;
+    float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 25px;
+	width: 25px;
+	border-radius: 8px;
+    padding: 0px;
+	font-size: 1.4em;
+	line-height: 1.05em;
+}
+
+.imageQRholder{
+    text-align: center;
+	margin-top: 90px;
+}
+
+.imageQR{
+    border-style: solid;
+	border-color: #dbdbdb;
+	border-width: 1px;
+	width: 200px;
+	height: 200px;
+
+}
+
+@media (min-width: 320px) and (max-width: 525px) {
+
+     .designWizardHeader{
+	     font-size: 1.4em;
+	 }
+
+	 .headerText{
+	      padding-left:3vw;
+	 }
+}
+
+
+@media (min-width: 526px) and (max-width: 767px) {
+      .designWizardHeader{
+		font-size: 2.2em;
+		 height: 130px;
+	}
+
+	.logoImage{
+		height: 90px;
+	}
+
+	.headerText{
+		height:90px;
+		line-height: 80px;
+	}
+
+	.thanks{
+	    font-size: 2.3em;
+	}
+
+	.btnGS{
+		width: 250px;
+		height: 140px;
+		border-radius: 15px;
+		font-size: 2.8em;
+	}
+
+	.title1, .title5, .title9{
+	     font-size: 1.8em;
+	 }
+
+	 .redStar{
+	     margin-left: -12px;
+	 }
+
+	  .btnW1, .btnW5{
+	   border-radius: 15px;
+	   font-size: 1.5em;
+	   height: 50px;
+	}
+	.logoUpload_holder {
+        height: 230px;
+		padding: 30px;
+	 }
+
+	 .btnCF {
+		  height: 45px;
+		  width: 200px;
+		  font-size: 1.2em;
+		  border-radius: 17px;
+		  margin-top: 55px;
+     }
+
+	 .previewImage {
+		  height: 175px;
+		  width: 175px;
+		  border-radius: 15px;
+	}
+	.previewBox {
+		  font-size: 1.3em;
+	}
+	.fieldLab_w3{
+	   font-size: 1.2em;
+	}
+	.formAreaW3{
+	   padding-left: 7vw;
+	  padding-top: 17px;
+	  padding-bottom:17px;
+	}
+
+	#fieldLab_w3_2{
+		margin-top: 17px;
+	}
+
+	#fieldLab_w3_3{
+		margin-top: 17px;
+	}
+	.scheduleDD{
+	   margin-top: 10px;
+	   height: 40px;
+	   width: 37vw;
+	   font-size: 1.2em;
+	}
+
+	.title4{
+	   font-size: 1.6em;
+	}
+	.fieldW4 label{
+	     font-size: 1.5em;
+		 margin-bottom: 0px;
+    }
+   .fieldW4 input{
+	     height: 40px;
+		 margin-bottom: 8px;
+		 width: 100%;
+		 border-radius: 7px;
+	}
+	.btnAAC{
+		height: 40px;
+		width: 250px;
+		font-size: 1.4em;
+		border-radius: 12px;
+		margin-top: 5px;
+	}
+
+	.contactList_holder{
+		background-color: #fff;
+		padding-left: 4vw;
+		padding-right: 4vw;
+		padding-top: 5px;
+		padding-bottom:30px;
+		border-radius: 5px;
+		margin-left: 7vw;
+		margin-right: 7vw;
+		font-size: 1.3em;
+   }
+
+	.email_CIB{
+		 height: 20px;
+		 width: 21vw;
+	}
+
+	.cell_CIB{
+		 height: 20px;
+		 width: 21vw;
+	}
+
+	.text_CIB{
+		 height: 20px;
+		 width: 21vw;
+	}
+
+	.btnECR_box{
+	    margin-top: 0px;
+	}
+
+	.btnECR{
+		background-color: #005292;
+		color: #fff;
+		height: 32px;
+		width: 68px;
+		font-size: 0.9em;
+		border-radius: 10px;
+	}
+
+	.btnW4x{
+	   width:55vw;
+	   height: 40px;
+	   border-radius: 15px;
+	   font-size: 1.4em;
+	}
+	.contactRecord{
+		width: 82vw;
+		margin-top: 25px;
+	}
+
+	.fieldW5 label{
+	     font-size: 1.3em;
+     }
+    .fieldW5 input{
+	     height: 40px;
+		 margin-bottom: 5px;
+		 border-radius: 5px;
+     }
+
+	 .websiteIconUpload label{
+		margin-top: 53px;
+		font-size: 1.3em;
+     }
+
+	 .btnCFW_box{
+	   margin-top: 50px;
+	   margin-left: 6vw;
+	}
+
+	.btnCFW{
+		height: 30px;
+		width: 130px;
+		font-size: 0.7em;
+		border-radius: 12px;
+		margin-top: 0px;
+		font-size: 1em;
+	}
+    .previewBoxW{
+		margin-top: 12px;
+		margin-left: 4.95vw;
+	}
+	.previewImageW{
+		height:110px;
+		width: 110px;
+		border-radius: 12px;
+        text-align: center;
+	/*	line-height: 3; */
+		font-size: 1.3em;
+	}
+
+	.btnAL_box{
+	   margin-top: 15px;
+	   padding-bottom: 15px;
+	}
+
+	.btnAL{
+		height: 37px;
+		width: 190px;
+		font-size: 1.5em;
+		border-radius: 12px;
+	}
+
+    .fieldW6 label{
+			 font-size: 1.3em;
+			 margin-bottom: 0px;
+	}
+	 .fieldW6 input{
+			 height: 35px;
+			 margin-bottom: 15px;
+			 width: 100%;
+			 border-radius: 5px;
+	}
+
+	.btnCSI_box{
+	   margin-top: 15px;
+	   text-align: center;
+	}
+
+	.btnCSI{
+		height: 43px;
+		width: 170px;
+		font-size: 1.4em;
+		border-radius: 13px;
+		margin-top: 0px;
+	}
+
+	.previewBox7{
+		margin-top: 30px;
+		font-size: 1.3em;
+	}
+	.previewImage7{
+		height:200px;
+		border-radius: 8px;
+		margin-bottom: 15px;
+	}
+
+	.sponsorUpload_holder{
+       height: 330px;
+    }
+
+	.bgUpload_holder{
+		margin-top: 10px;
+		height: 210px;
+		margin-left: 30px;
+		margin-right: 30px;
+		border-radius: 5px;
+		padding: 20px;
+	}
+
+	.buttonSide{
+	    margin-top: 15px;
+	}
+
+	.btnUBI_box{
+	   margin-top: 10px;
+	}
+
+	.btnUBI{
+		height: 50px;
+		width: 235px;
+		font-size: 1.5em;
+		border-radius: 12px;
+	}
+
+	.text8y{
+		margin-top: 15px;
+		font-size: 1.5em;
+	}
+
+	.btnCBC_box{
+	   margin-top: 15px;
+	}
+
+	.btnCBC{
+		height: 50px;
+		width: 235px;
+		font-size: 1.5em;
+		border-radius: 12px;
+		margin-top: 0px;
+	}
+
+	.previewImage8 {
+		  height: 155px;
+		  width: 155px;
+		  border-radius: 15px;
+	}
+	.previewBox8 {
+		  font-size: 1.3em;
+		  margin-top: 20px;
+	}
+
+	.btnW8_holder{
+		margin-top: 30px;
+		padding-bottom: 3vh;
+	}
+
+	.colorOptions_holder{
+		margin-top: 10px;
+		height: 370px;
+		padding: 25px;
+		margin-left: 30px;
+		margin-right: 30px;
+		border-radius: 5px;
+	}
+
+	.colorChoiceBox{
+		margin-left: 24vw;
+		margin-right: 24vw;
+		padding-top: 7px;
+		padding-bottom: 10px;
+	}
+
+	.colChoiceSchedHeading{
+		font-size: 0.8em;
+		margin-bottom: 5px;
+	}
+
+	.usLine{
+		font-size: 0.5em;
+		margin-left: 12px;
+	}
+
+	.colChoiceContactHeading{
+		margin-top: 8px;
+		padding-top: 8px;
+		font-size: 0.8em;
+		margin-bottom: 0px;
+	}
+
+	.contactLine{
+	   margin-bottom: 4px;
+	}
+
+	.contactID{
+	   font-size: 0.7em;
+	   margin-left: 12px;
+	}
+
+	.iconHolder{
+	   padding-left: 3vw;
+	   padding-right: 3vw;
+	   margin-top:5px;
+	}
+
+	.image_icon{
+	   height: 20px;
+	   width: 20px;
+	}
+
+	.iconText{
+	   margin-top: 3px;
+	   font-size: 0.5em;
+	}
+
+	.textBtnRow{
+	   margin-top: 15px;
+	}
+
+	.btnTT_box{
+	   margin-top: 5px;
+	}
+
+	.btnTT{
+		height: 40px;
+		width: 185px;
+		font-size: 1.5em;
+		border-radius: 12px;
+		margin-top: 0px;
+	}
+
+	.btnRT_box{
+	   margin-top: 5px;
+	}
+
+	.btnRT{
+		height: 40px;
+		width: 185px;
+		font-size: 1.5em;
+		border-radius: 12px;
+		margin-top: 0px;
+	}
+
+	.btnIC_box{
+	   margin-top: 12px;
+	}
+
+	.btnIC{
+		height: 40px;
+		width: 185px;
+		font-size: 1.5em;
+		border-radius: 12px;
+		margin-top: 0px;
+	}
+	.btnW9_holder{
+		margin-top: 17px;
+	/*	padding-bottom: 3vh; */
+	}
+
+	.btnW9{
+	   width:40vw;
+	   height: 40px;
+	   border-radius: 15px;
+	   font-size: 1.3em;
+	}
+	.buildImage {
+        width: 350px;
+		margin-top: 30px;
+    }
+	.buildingText {
+	  font-size: 2.2em;
+	  margin-top: 50px;
+	}
+
+	.appReadyContent{
+	   padding-left: 30px;
+	   padding-right: 30px;
+	   margin-top: 20px;
+	   padding-top: 10px;
+	   padding-bottom: 55px;
+	   border-radius: 5px;
+	   margin-left: 6vw;
+	   margin-right: 6vw;
+	   height: 480px;
+	}
+
+	.congrats{
+	   font-size: 3.5em;
+	}
+
+	.titleAR{
+	   font-size: 1.5em;
+	}
+
+	.appReadyText{
+	   font-size: 0.9em;
+	   margin-top: 8px;
+	}
+
+	.appReadyLink{
+	   font-size: 0.9em;
+	   margin-top: 8px;
+	}
+
+	.upperImageHolder{
+	height: 120px;
+	padding-left: 17vw;
+	padding-right: 17vw;
+   }
+
+	.previewBoxAR{
+		margin-top: 8px;
+		padding-bottom: 8px;
+	}
+	.previewImageAR{
+		height: 100px;
+		width: 100px;
+		border: 2px solid #777;
+		border-radius: 12px;
+	}
+
+	.appReadyImage{
+		 margin-top: 8px;
+		height: 90px;
+		width: 90px;
+	}
+
+	.triLogoBox{
+	margin-top: 7px;
+	padding-bottom: 0px;
+	}
+	.triLogo{
+		height: 110px;
+		width: 110px;
+	}
+
+	.btnQRclose{
+		margin-top: 20px;
+		margin-right: 20px;
+		height: 50px;
+		width: 50px;
+		border-radius: 8px;
+		font-size: 3em;
+		line-height: 1.05em;
+	}
+
+	.imageQRholder{
+		margin-top: 170px;
+	}
+
+	.imageQR{
+		width: 300px;
+		height: 300px;
+
+	}
+}
+@media (min-width: 768px) {
+       .container{
+	      width: initial;
+	   }
+      .designWizardHeader{
+	    font-size: 3.3em;
+		height: 190px;
+	  }
+
+	  .headerText {
+		  height: 145px;
+		  line-height: 130px;
+		  padding-left: 2vw;
+	  }
+	  .logoImage {
+	     height: 145px;
+	  }
+	  .btnGS{
+		width: 350px;
+		height: 160px;
+		border-radius: 20px;
+		font-size: 3.5em;
+	 }
+      .title1,.title5,.title9{
+	     font-size: 2.3em;
+	  }
+	  .thanks{
+	      font-size: 2.8em;
+	  }
+	  .fieldW1 label{
+	     font-size: 1.8em;
+		 margin-bottom: 0px;
+	 }
+	 .fieldW1 input{
+	     height: 6vh;
+		 padding-bottom: 0px;
+		 border-radius: 10px;
+	 }
+	  .btnW1{
+	    height:75px;
+		font-size: 2em;
+		border-radius: 30px;
+	 }
+
+	 .logoUpload_holder {
+        height: 250px;
+		padding: 45px;
+	 }
+
+	 .btnCF {
+		  height: 55px;
+		  width: 250px;
+		  font-size: 2em;
+		  border-radius: 17px;
+		  margin-top: 55px;
+     }
+
+	 .previewImage {
+		  height: 225px;
+		  width: 225px;
+		  border-radius: 20px;
+	}
+	.previewBox {
+		  font-size: 2em;
+          margin-top: 2px;
+	}
+	.formAreaW3{
+	      padding-left:6vw;
+		  padding-top:25px;
+	  padding-bottom:25px;
+	}
+
+	#fieldLab_w3_2{
+		margin-top: 25px;
+	}
+
+	#fieldLab_w3_3{
+		margin-top: 25px;
+	}
+	.fieldLab_w3{
+	   font-size: 1.8em;
+	}
+	.scheduleDD{
+	   margin-top: 10px;
+	   height: 50px;
+	   width: 37vw;
+	   font-size: 1.8em;
+	}
+	.title4{
+	   font-size: 2em;
+	}
+	.fieldW4 label{
+	     font-size: 2em;
+		 margin-bottom: 0px;
+    }
+   .fieldW4 input{
+	     height: 50px;
+		 margin-bottom: 8px;
+		 width: 100%;
+		 border-radius: 7px;
+	}
+	.btnAAC{
+		height: 50px;
+		width: 300px;
+		font-size: 1.6em;
+		border-radius: 12px;
+		margin-top: 5px;
+	}
+	.contactList_holder{
+		background-color: #fff;
+		padding-left: 4vw;
+		padding-right: 4vw;
+		padding-top: 5px;
+		padding-bottom:50px;
+		border-radius: 5px;
+		margin-left: 7vw;
+		margin-right: 7vw;
+		font-size: 2em;
+   }
+
+	.email_CIB{
+		 height: 30px;
+		 width: 22vw;
+	}
+
+	.cell_CIB{
+		 height: 30px;
+		 width: 22vw;
+	}
+
+	.text_CIB{
+		 height: 30px;
+		 width: 22vw;
+	}
+
+	.btnEditCR{
+		margin-top: 19px;
+	}
+
+	.btnECR{
+		background-color: #005292;
+		color: #fff;
+		height: 40px;
+		width: 75px;
+		font-size: 0.8em;
+		border-radius: 10px;
+	}
+
+	.btnW4x{
+	   width:55vw;
+	   height: 55px;
+	   border-radius: 15px;
+	   font-size: 1.8em;
+	}
+	.contactRecord{
+		margin-top: 40px;
+	}
+
+	.fieldW5 label{
+	     font-size: 1.8em;
+     }
+    .fieldW5 input{
+	     height: 50px;
+		 margin-bottom: 5px;
+		 border-radius: 5px;
+     }
+
+	 .websiteIconUpload label{
+		margin-top: 100px;
+		font-size: 1.8em;
+     }
+
+	 .btnCFW_box{
+	   margin-top: 100px;
+	   margin-left: 6vw;
+	}
+
+	.btnCFW{
+		height: 30px;
+		width: 160px;
+		font-size: 0.7em;
+		border-radius: 12px;
+		margin-top: 0px;
+		font-size: 1.4em;
+	}
+    .previewBoxW{
+		margin-top: 22px;
+		margin-left: 4.95vw;
+	}
+	.previewImageW{
+		height:180px;
+		width: 180px;
+		border-radius: 18px;
+		text-align: center;
+		font-size: 1.5em;
+		line-height: 6.5;
+	}
+
+	.btnAL_box{
+	   margin-top: 15px;
+	   padding-bottom: 15px;
+	}
+
+	.btnAL{
+		height: 41px;
+		width: 250px;
+		font-size: 1.8em;
+		border-radius: 18px;
+	}
+
+	 .fieldW6 label{
+			 font-size: 1.8em;
+			 margin-bottom: 0px;
+	}
+	 .fieldW6 input{
+			 height: 45px;
+			 margin-bottom: 25px;
+			 width: 100%;
+			 border-radius: 5px;
+	}
+
+	 .btnCSI_box{
+	   margin-top: 15px;
+	   text-align: center;
+	}
+
+	.btnCSI{
+		height: 50px;
+		width: 250px;
+		font-size: 1.8em;
+		border-radius: 13px;
+		margin-top: 0px;
+	}
+
+	.previewBox7{
+		margin-top: 30px;
+		font-size: 1.9em;
+	}
+	.previewImage7{
+		height: 185px;
+		border-radius: 8px;
+		margin-bottom: 15px;
+	}
+
+	.sponsorUpload_holder{
+       height: 330px;
+    }
+
+	.bgUpload_holder{
+		margin-top: 25px;
+		height: 270px;
+		margin-left: 30px;
+		margin-right: 30px;
+		border-radius: 5px;
+		padding: 30px;
+	}
+
+	.btnUBI_box{
+	   margin-top: 40px;
+	}
+
+	.btnUBI{
+		height: 70px;
+		width: 375px;
+		font-size: 1.8em;
+		border-radius: 18px;
+	}
+
+	.text8y{
+		margin-top: 15px;
+		font-size: 1.8em;
+	}
+
+	.btnCBC_box{
+	   margin-top: 15px;
+	}
+
+	.btnCBC{
+		height: 70px;
+		width: 375px;
+		font-size: 1.8em;
+		border-radius: 18px;
+		margin-top: 0px;
+	}
+    .previewImage8 {
+		  height: 225px;
+		  width: 225px;
+		  border-radius: 20px;
+	}
+	.previewBox8 {
+		  font-size: 2em;
+
+	}
+	.btnW8_holder{
+		margin-top: 50px;
+		padding-bottom: 3vh;
+	}
+	.colorOptions_holder{
+		margin-top: 10px;
+		padding: 35px;
+		margin-left: 30px;
+		margin-right: 30px;
+		border-radius: 5px;
+	}
+
+	.colorChoiceBox{
+		margin-left: 25vw;
+		margin-right: 25vw;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.colChoiceSchedHeading{
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+
+	.usLine{
+		font-size: 0.9em;
+		margin-left: 12px;
+	}
+
+	.colChoiceContactHeading{
+		margin-top: 8px;
+		padding-top: 8px;
+		font-size: 1.2em;
+		margin-bottom: 0px;
+	}
+
+	.contactLine{
+	   margin-bottom: 4px;
+	}
+
+	.contactID{
+	   font-size: 0.9em;
+	   margin-left: 12px;
+	}
+
+	.iconHolder{
+	   padding-left: 3vw;
+	   padding-right: 3vw;
+	   margin-top:5px;
+	}
+
+	.image_icon{
+	   height: 30px;
+	   width: 30px;
+	}
+
+	.iconText{
+	   margin-top: 3px;
+	   font-size: 0.7em;
+	}
+
+	.textBtnRow{
+	   margin-top: 20px;
+	}
+
+	.btnTT_box{
+	   margin-top: 5px;
+	}
+
+	.btnTT{
+		height: 55px;
+		width: 250px;
+		font-size: 1.7em;
+		border-radius: 16px;
+		margin-top: 0px;
+	}
+
+	.btnRT_box{
+	   margin-top: 5px;
+	}
+
+	.btnRT{
+		height: 55px;
+		width: 250px;
+		font-size: 1.7em;
+		border-radius: 16px;
+		margin-top: 0px;
+	}
+
+	.btnIC_box{
+	   margin-top: 18px;
+	}
+
+	.btnIC{
+		height: 55px;
+		width: 250px;
+		font-size: 1.7em;
+		border-radius: 16px;
+		margin-top: 0px;
+	}
+	.btnW9_holder{
+		margin-top: 25px;
+	/*	padding-bottom: 3vh; */
+	}
+
+	.btnW9{
+	   width:40vw;
+	   height: 55px;
+	   border-radius: 15px;
+	   font-size: 1.8em;
+	}
+	.buildImage {
+        width: 410px;
+		margin-top: 30px;
+    }
+	.buildingText {
+	  font-size: 3.4em;
+	  margin-top: 50px;
+	}
+	.appReadyImage{
+		 margin-top: 12px;
+		height: 120px;
+		width: 120px;
+	}
+
+	.appReadyContent{
+	   padding-left: 30px;
+	   padding-right: 30px;
+	   margin-top: 30px;
+	   padding-bottom: 55px;
+	   border-radius: 5px;
+	   margin-left: 5vw;
+	   margin-right: 5vw;
+	   height: 610px;
+	}
+
+	.congrats{
+	   font-size: 4em;
+	}
+
+	.titleAR{
+	   font-size: 1.8em;
+	}
+
+	.appReadyText{
+	   font-size: 1.3em;
+	   margin-top: 12px;
+	}
+
+	.appReadyLink{
+	   font-size: 1.3em;
+	   margin-top: 12px;
+	}
+
+	.upperImageHolder{
+	height: 170px;
+	padding-left: 17vw;
+	padding-right: 17vw;
+   }
+
+	.previewBoxAR{
+		margin-top: 12px;
+		padding-bottom: 15px;
+	}
+	.previewImageAR{
+		height: 150px;
+		width: 150px;
+		border: 2px solid #777;
+		border-radius: 20px;
+	}
+
+	.triLogoBox{
+	margin-top: 7px;
+	padding-bottom: 0px;
+	}
+	.triLogo{
+		height: 160px;
+		width: 160px;
+	}
+
+	.btnQRclose{
+		margin-top: 20px;
+		margin-right: 20px;
+		height: 75px;
+		width: 75px;
+		border-radius: 12px;
+		font-size: 4.6em;
+		line-height: 0.9em;
+	}
+
+	.imageQRholder{
+		margin-top: 220px;
+	}
+
+	.imageQR{
+		width: 400px;
+		height: 400px;
+
+	}
+}
+
+
+@media (min-width: 992px) {
+	 .container{
+	      width: initial;
+	   }
+	 .buttonSide{
+	      margin-left: 60px;
+	 }
+	 .previewSide{
+	      margin-right: 60px;
+	 }
+}
+
+@media (min-width: 1200px) {
+	 .buttonSide{
+	      margin-left: 120px;
+	 }
+	 .previewSide{
+	      margin-right: 120px;
+	 }
+}
