@@ -110,7 +110,7 @@ function getDate(eventNo){
 						$time = ($i-12).":00 PM";
 					}
 					echo "<option value=\"$time\">$time</option>";
-					<br />  //************************************************change******************************************************
+					
 				}
 				?>
 			</select>

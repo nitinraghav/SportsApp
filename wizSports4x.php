@@ -38,6 +38,7 @@ if (empty($_SESSION["wizardTeamName"]) or empty($_SESSION["wizardCoachName"]) or
 <header class="row">
 <!--<div class="welcome-message col-md-12">-->
 <div class="col-md-12 designWizardHeader">
+<img  class="logoImage" src="img/live_app_logo.png" alt=""/>
 <div class="headerText" >LiveApp Team Wizard</div>
 <div style="clear:both;"></div>
 <div class="stepNo"> Step 4 of 9</div>
@@ -57,17 +58,21 @@ if (empty($_SESSION["wizardTeamName"]) or empty($_SESSION["wizardCoachName"]) or
 			if (!empty($_SESSION["Emails"][$i]) and !empty($_SESSION["Phones"][$i]))
 			{?>
 		<div class="contactRecord" >
-          <div class="btnEditCR">
-		      <div class=" btnECR_box">
-			  <input type="button" onclick="location.href = 'contactEdit.php?q=<?php echo $i; ?>';" name="" id="" value="Edit" class="btn btnECR" />
-			  </div>
-		  </div>
+          
 		  <div class="ciInfoBox">
-		         <div class="personData">
-					   <div class="contactType"><?php echo $_SESSION["Titles"][$i]; ?>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-					   <div class="contactName"><?php echo $_SESSION["Names"][$i]; ?></div>
-					   <div style="clear:both"></div>
-				 </div>
+		  			<div class="btnEditCR">
+					    <div class=" btnECR_box">
+						  <input type="button" onclick="location.href = 'contactEdit.php?q=<?php echo $i; ?>';" name="" id="" value="Edit" class="btn btnECR" />
+						  <input type="button" onclick="location.href = 'contactEdit.php?q=<?php echo $i; ?>';" name="" id="" value="Delete" class="btn btnECR" />   <!--***********************update required******-->
+						</div>
+					</div>
+					
+			         <div class="personData">
+						   <div class="contactType"><?php echo $_SESSION["Titles"][$i]; ?>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+						   <div class="contactName"><?php echo $_SESSION["Names"][$i]; ?></div>
+						   <div style="clear:both"></div>
+					 </div>
+				 	
 				 <?php  ?>
 				 <div class="contactData">
 					 <div class="email_CIB">
